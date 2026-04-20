@@ -1,11 +1,18 @@
 body {
-    background-color: #f0f8ff;
+    background-color: #686567;
     color: #333333;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 20px;
+
 }
-h1 {
+form{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h3{
     color: #00eeda;
     text-align: center;
 }
@@ -22,5 +29,12 @@ th, td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+}
+
+.img-formulario {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+
 }
 
