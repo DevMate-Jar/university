@@ -7,34 +7,106 @@
 </head>
 
 <body>
-    <h1>Tipo de</h1>
-    <h3>Formulario</h3>
 
-    <form>
 
-        <label>Nombre</label>
-        <input type="text" name="nombre">
+<header>
+    <h1>Tipo de Formulario</h1>
+    <h2>Actividad de Programación</h2>
+</header>
 
-        <label>Apellido</label>
-        <input type="text" name="apellido">
 
-        <label>Edad</label>
-        <input type="number" name="edad">
+<nav>
+    <a href="#">Inicio</a> |
+    <a href="#">Formulario</a> |
+    <a href="#">Contacto</a>
+</nav>
 
-        <label>Ciudad</label>
-        <select name="ciudad">
-            <option value="santa_fe">Santa Fe</option>
-            <option value="rosario">Rosario</option>
-        </select>
 
-        <label>Email</label>
-        <input type="email" name="email">
+<main>
 
-        <input type="submit" value="Enviar">
+    <!-- Sección del formulario -->
+    <section>
 
-    </form>
+    
+        <form>
 
-    <img src="imagen.png" class = "img-formulario">
+            <label>Nombre</label>
+            <input type="text" name="nombre">
+
+            <label>Apellido</label>
+            <input type="text" name="apellido">
+
+            <label>Cuotas</label>
+            <input type="number" name="cuotas" min="1">
+
+            <label>Provincia</label>
+            <select name="provincia">
+                <option value="s">Santa Fe</option>
+                <option value="e">Entre Ríos</option>
+                <option value="c">Córdoba</option>
+            </select>
+
+            <label>Email</label>
+            <input type="email" name="email" required>
+
+            
+            <br><br>
+            <label>
+                <input type="checkbox" name="estudiante"> Soy estudiante
+            </label>
+
+            
+            
+
+            <br><br>
+            <input type="submit" value="Enviar">
+
+        </form>
+
+    </section>
+
+    
+    <section>
+
+        <h2>Descripción de los campos</h2>
+
+        <ol>
+            <li>Nombre: Campo de texto para el nombre</li>
+            <li>Apellido: Campo de texto para el apellido</li>
+            <li>Cuotas: Número mayor a cero</li>
+            <li>Provincia: Selección de provincia</li>
+            <li>Email: Correo electrónico válido</li>
+        </ol>
+
+        
+        <table border="1">
+            <tr>
+                <th>Campo</th>
+                <th>Tipo</th>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td>Texto</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>Email</td>
+            </tr>
+        </table>
+
+    </section>
+
+    
+    <section>
+        <img src="imagen.png" class="img-formulario">
+    </section>
+
+</main>
+
+
+<footer>
+    <p>Trabajo práctico - Programación I</p>
+</footer>
 
 </body>
 </html>
